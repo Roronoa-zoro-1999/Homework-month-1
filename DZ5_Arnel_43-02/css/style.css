@@ -1,0 +1,127 @@
+.main {
+    height: 100vh;
+    background-image: url('../images/img.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 180px;
+    text-align: center;
+}
+.main h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.main p {
+    font-size: 16px;
+    line-height: 155%;
+    width: 867px;
+    margin: 0 auto 45px;
+}
+.info__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 95px;
+    margin-top: -40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 35px 0 rgba(0,0,0, .16);
+}
+.info__item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.info__item span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+}
+.info__item p {
+    font-size: 16px;
+    line-height: 155%;
+    color: #086CF9;
+    margin-top: 8px;
+}
+
+.course {
+    margin-top: 134px;
+}
+
+.course h3 {
+    margin-top: 16px;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.course p {
+    font-size: 16px;
+}
+.course caption {
+    margin-bottom: 32px;
+}
+.course__inner {
+    display: flex;
+    gap: 24px;
+}
+.course__inner .right {
+    flex: 0 0 595px;
+    height: 433px;
+    background-image: url("../images/pexels-monstera6238005 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course__inner .right a  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.course__inner .left a {
+    width: 149px;
+    height: 56px;
+    background-color: #086CF9;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.work {
+    margin-top: 134px;
+    text-align: center;
+}
+.work caption {
+    width: 423px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.work .caption {
+    font-size: 16px;
+    width: 423px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work__inner {
+    display: flex;
+    gap: 53px;
+    margin-top: 48px;
+}
+.play {
+    display: flex;
+    background: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
