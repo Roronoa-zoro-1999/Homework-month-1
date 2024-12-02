@@ -1,0 +1,243 @@
+.menu__inner {
+    position: absolute;
+    display: flex;
+    gap: 500px;
+    padding: 43px 144px;
+}
+.menu__inner ol {
+    display: flex;
+    gap: 40px;
+}
+.menu__inner li {
+    display: flex;
+    gap: 7px;
+    color: white;
+}
+.menu div {
+    color: white;
+    font-weight: bold;
+}
+.blue {
+    font-weight: bold;
+    color: #086CF9;
+}
+.main {
+    height: 100vh;
+    background-image: url('../images/image-main.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 180px;
+    text-align: center;
+}
+.main h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.main p {
+    font-size: 16px;
+    line-height: 155%;
+    width: 867px;
+    margin: 0 auto 45px;
+}
+.info__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 95px;
+    margin-top: -40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 35px 0 rgba(0,0,0, .16);
+}
+.info__item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.info__item span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+}
+.info__item p {
+    font-size: 16px;
+    line-height: 155%;
+    color: #086CF9;
+    margin-top: 8px;
+}
+.course {
+    margin-top: 134px;
+}
+.course .caption {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.course h3  {
+    margin-bottom: 48px;
+}
+.course__inner {
+    display: flex;
+    gap: 36px;
+}
+.course__inner .right {
+    flex: 0 0 595px;
+    height: 433px;
+    background-image: url('../images/image-course.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.course__inner .right a {
+
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course__inner .left a {
+    width: 149px;
+    height: 56px;
+    background-color: #086CF9;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.work {
+    margin-top: 134px;
+    text-align: center;
+}
+.work .caption {
+    width: 423px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work__inner {
+    display: flex;
+    gap: 53px;
+    margin-top: 48px;
+}
+.work h3 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.online {
+    background-color: #D3E5FE;
+    margin-top: 128px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.online .title {
+    text-align: center;
+}
+.online .caption {
+    text-align: center;
+    width: 674px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.online__wrap {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 24px;
+}
+.online__item {
+    background-color: #fff;
+    flex: 0 1 368px;
+    padding: 24px 24px 35px;
+    border-radius: 6px;
+}
+.online__item-image {
+    overflow: hidden;
+    border-radius: 6px;
+    height: 208px;
+}
+.online__item-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .25s;
+}
+.online__item:hover .online__item-image img {
+    transform: scale(1.1);
+}
+.online__item-info {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.online__item-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.online__item-info .icon {
+    width: 32px;
+    height: 32px;
+    border-bottom: 0.6px solid #C8C8C8;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online__item-info span {
+    font-size: 16px;
+    color: #555555;
+    line-height: 24px;
+}
+.online__item-title {
+    margin-top: 45px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.online__item-title h3 {
+    font-size: 24px;
+    line-height: 31px;
+
+}
+.online__item-title span {
+    color: #086CF9;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+}
+.online__item-info p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555555;
+}
+.online .last {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.last {
+    margin-top: 48px;
+    width: 182px;
+    height: 56px;
+    background-color: #086CF9;
+    border-radius: 6px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
